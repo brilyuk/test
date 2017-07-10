@@ -1,0 +1,82 @@
+body {
+	background-color: #eee;
+}
+
+ul {
+	text-transform: uppercase;
+	font: 14px Arial, sans-serif;
+	color: red;
+}
+
+a:link {
+	color: blue;
+	padding: 3px;
+}
+
+a:hover {
+	background: white;
+	color: red;
+}
+
+a:visited {
+	color: black;
+}
+
+ul {
+	list-style-type: square;
+}
+
+.icon1 {
+	width: 60px;
+	height: 60px;
+	background: url(sprite.jpg) no-repeat;
+	background-position: -10px -10px;
+	border-radius: 50px;
+}
+
+.inform {
+	border-radius: 50px;
+}
+
+.icon2 {
+	width: 60px;
+	height: 60px;
+	background: url(sprite.jpg) no-repeat;
+	background-position: -131px -131px;
+}
+
+.animated {
+	animation-duration: 3s;
+	animation-name: slidein;
+}
+
+@keyframes slidein {
+	from {
+		margin-left: 100%;
+		width: 300%;
+	}
+
+	to {
+		margin-left: 0%;
+		width: 100%
+	}
+}
+
+.icon3 {
+	width: 60px;
+	height: 60px;
+	background: url(sprite.jpg) no-repeat;
+	background-position: -440px -10px;
+}
+
+.block > div {
+	width: 200px;
+	height: 50px;
+	background-color: orange;
+	border: 3px solid: black;
+}
+.block {
+	justify-content: flex-start;
+	flex-direction: row;
+	display: flex;
+}
